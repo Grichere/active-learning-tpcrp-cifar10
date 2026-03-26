@@ -1,0 +1,1 @@
+{"caption": "TPCRP vs Random: mean test accuracy \u00b1 SE across 10 repetitions on CIFAR-10", "description": "Line chart comparing TPCRP (SimCLR + K-means) and random selection across 5 active learning iterations with B=10 labels per round. Shaded bands show \u00b11 standard error. Fully supervised ResNet-18 classifier."}

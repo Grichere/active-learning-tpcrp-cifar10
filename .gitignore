@@ -138,6 +138,8 @@ celerybeat.pid
 .env
 .envrc
 .venv
+.venv_wsl
+.venv_wsl2
 env/
 venv/
 ENV/
@@ -205,3 +207,34 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# CIFAR-10 dataset (re-downloads automatically)
+data/
+
+# Large output files (keep results but not model weights)
+output/simclr_model.pt
+output/embeddings.npy
+output/embeddings.pt
+output/train_labels.npy
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+.vscode/
+
+# Large outputs — exclude
+output/simclr_model.pt
+output/embeddings.npy
+output/embeddings.pt
