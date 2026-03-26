@@ -27,8 +27,9 @@ python3.12 -m venv .venv
 
 3. Register the virtual environment as a Jupyter kernel and install the necessary dependencies:
 ```bash
-pip install ipykernel torch torchvision scikit-learn matplotlib plotly pandas
-pip install -r requirements.txt
+pip install ipykernel -r requirements.txt
+```
+```bash
 python -m ipykernel install --user --name=.venv --display-name="Python (.venv)
 ```
 
